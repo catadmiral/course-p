@@ -23,4 +23,24 @@
 
 'use strict';
 
-let
+let numberOfFilms = prompt('Сколько фильмов вы уже посмотрели?', '18');
+    
+const personalMovieDB = {
+    count: (numberOfFilms),
+    movies: (''),
+    actors: (''),
+    genres: [],
+    privat: false
+};
+
+let answersFilm = prompt('Один из последних просмотренных фильмов?', 'Ёлки');
+let answersAppraisal = prompt('На сколько оцените его?', 'От 0 - 10');
+
+const results = {
+    answersFilm: (answersFilm),
+    answersAppraisal: (answersAppraisal)
+};
+
+console.log(results);
+
+
