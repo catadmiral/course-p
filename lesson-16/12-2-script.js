@@ -41,7 +41,7 @@ console.log(calc(534535, 23424));
 //--------------------->
 
 function ret() {
-    let nam = 50;
+    let num = 50;
 
     // тут может быть много кода с вычислениями
 
@@ -50,3 +50,20 @@ function ret() {
 
 const anotherNum = ret();
 console.log(anotherNum);
+
+
+
+//-------Function expression-------------->
+
+const logger = function() {
+    console.log('Hello');
+}; // обязательно точка с запятой
+
+logger();
+
+
+//-------Стрелочные функции-------------->
+
+const calcC = (a, b) => a + b;
+
+const calcCc = (a, b) => { return a + b };
